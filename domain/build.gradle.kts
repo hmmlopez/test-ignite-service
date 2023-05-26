@@ -1,0 +1,3 @@
+plugins {
+    prj.`kotlin-conventions`
+}

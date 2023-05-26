@@ -1,0 +1,23 @@
+[versions]
+kotlinVersion = "1.8.21"
+igniteVersion = "2.15.0"
+springBootVersion = "3.0.6"
+spotlessVersion = "6.18.0"
+
+[libraries]
+kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinVersion" }
+kotlin-spring-plugin = { module = "org.jetbrains.kotlin:kotlin-allopen", version.ref = "kotlinVersion" }
+spotless-plugin = { module = "com.diffplug.spotless:spotless-plugin-gradle", version.ref = "spotlessVersion" }
+springboot-plugin = { module = "org.springframework.boot:spring-boot-gradle-plugin", version.ref = "springBootVersion" }
+
+ignite-spring = { module = "org.apache.ignite:ignite-spring", version.ref = "igniteVersion" }
+ignite-slf4j = { module = "org.apache.ignite:ignite-slf4j", version.ref = "igniteVersion" }
+ignite-kubernetes = { module = "org.apache.ignite:ignite-kubernetes", version.ref = "igniteVersion" }
+h2database = { module = "com.h2database:h2", version.strictly = "1.4.197" }
+springBootDependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "springBootVersion" }
+
+[bundles]
+ignite = ["ignite.spring", "ignite.slf4j", "ignite.kubernetes", "h2database"]
+
+[plugins]
+kotlin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlinVersion" }

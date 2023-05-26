@@ -1,0 +1,6 @@
+ignite:
+  discoverySpi:
+    localPort: 47500
+    vmIpFinder:
+      addresses:
+        - "localhost:47500..47510"
