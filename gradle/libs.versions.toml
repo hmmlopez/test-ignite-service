@@ -13,7 +13,7 @@ springboot-plugin = { module = "org.springframework.boot:spring-boot-gradle-plug
 ignite-spring = { module = "org.apache.ignite:ignite-spring", version.ref = "igniteVersion" }
 ignite-slf4j = { module = "org.apache.ignite:ignite-slf4j", version.ref = "igniteVersion" }
 ignite-kubernetes = { module = "org.apache.ignite:ignite-kubernetes", version.ref = "igniteVersion" }
-h2database = { module = "com.h2database:h2", version.strictly = "1.4.197" }
+h2database = { module = "com.h2database:h2", version.strictly = "2.2.224" }
 springBootDependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "springBootVersion" }
 
 [bundles]
