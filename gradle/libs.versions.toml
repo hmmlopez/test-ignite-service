@@ -2,7 +2,7 @@
 kotlinVersion = "2.1.0"
 igniteVersion = "2.16.0"
 springBootVersion = "3.4.1"
-spotlessVersion = "7.0.1"
+spotlessVersion = "7.0.2"
 
 [libraries]
 kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinVersion" }
