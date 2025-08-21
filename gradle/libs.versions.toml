@@ -1,7 +1,7 @@
 [versions]
 kotlinVersion = "2.2.10"
 igniteVersion = "2.17.0"
-springBootVersion = "3.5.4"
+springBootVersion = "3.5.5"
 spotlessVersion = "7.2.1"
 
 [libraries]
